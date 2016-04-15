@@ -23,13 +23,9 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
-        'templates.xml',
         'account_discount_view.xml'
     ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo.xml',
-    ],
     'installable': True,
+    'price': 5,
+    'currency': 'EUR',
 }
